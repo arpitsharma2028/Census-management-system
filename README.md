@@ -1,6 +1,22 @@
 # Census Management System (Java Spring Boot + Thymeleaf + SQLite / MySQL)
 
-A modern, enterprise-grade, web-based **Census Management System** written **100% in Java** using **Spring Boot 3**, **Spring Security**, **Spring Data JPA (Hibernate 6)**, **Thymeleaf**, **Bootstrap 5**, and **Chart.js**, backed by **SQLite** (`census.db` zero-server setup) with **MySQL** support.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-green?style=for-the-badge&logo=render)](https://census-management-system-5lpf.onrender.com)
+[![Java](https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge&logo=openjdk)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.4-brightgreen?style=for-the-badge&logo=springboot)](https://spring.io/projects/spring-boot)
+[![SQLite](https://img.shields.io/badge/Database-SQLite%20%7C%20MySQL-blue?style=for-the-badge&logo=sqlite)](https://www.sqlite.org/)
+
+---
+
+### 🌐 Live Cloud Deployment
+The project is hosted and running live on Render:
+👉 **[https://census-management-system-5lpf.onrender.com](https://census-management-system-5lpf.onrender.com)**
+
+#### Quick Demo Login Credentials:
+| Portal | Username | Password | Access Scope |
+| :--- | :--- | :--- | :--- |
+| **National Admin** | `admin` | `admin123` | Full demographic charts, regions, enumerators, CSV export |
+| **Field Enumerator** | `enum_mumbai` | `enum123` | Mumbai jurisdiction (`/enumerator-home`, register households/citizens) |
+| **Field Enumerator** | `enum_bangalore` | `enum123` | Bengaluru jurisdiction |
 
 ---
 

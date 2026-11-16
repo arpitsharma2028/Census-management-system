@@ -5,6 +5,7 @@
 **Subject**: Advanced Java / Enterprise Application Development (Spring Boot)  
 **Document Version**: 1.0.0  
 **Submission Date**: November 2026  
+**Live URL**: [https://census-management-system-5lpf.onrender.com](https://census-management-system-5lpf.onrender.com)  
 
 ---
 
