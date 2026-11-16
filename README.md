@@ -1,6 +1,6 @@
-# Census Management System (Java Spring Boot + Thymeleaf + MySQL)
+# Census Management System (Java Spring Boot + Thymeleaf + SQLite / MySQL)
 
-A modern, enterprise-grade, web-based **Census Management System** written **100% in Java** using **Spring Boot 3**, **Spring Security**, **Spring Data JPA (Hibernate)**, **Thymeleaf**, **Bootstrap 5**, and **Chart.js**, backed by **MySQL** (with embedded H2 zero-config mode included).
+A modern, enterprise-grade, web-based **Census Management System** written **100% in Java** using **Spring Boot 3**, **Spring Security**, **Spring Data JPA (Hibernate 6)**, **Thymeleaf**, **Bootstrap 5**, and **Chart.js**, backed by **SQLite** (`census.db` zero-server setup) with **MySQL** support.
 
 ---
 
@@ -16,19 +16,17 @@ The Census Management System enables municipal and governmental administrative b
 
 ## 🚀 1-Click Ultra-Easy Startup
 
-You can start the entire application with a single click or command:
+You can start the entire application with a single click:
 
-### Option A: Double-Click or Run `start.bat` / `run.bat` (Windows - Recommended)
-Simply **double-click** [run.bat](file:///e:/cencus-management-system/run.bat) or [start.bat](file:///e:/cencus-management-system/start.bat) (or run in terminal):
-```cmd
-run.bat
-```
-- **Auto-Detects Java**: Automatically discovers JDK 17+ on your system.
+### Double-Click `run.bat` or `start.bat` (Windows - Recommended)
+Simply **double-click** [run.bat](file:///e:/cencus-management-system/run.bat) or [start.bat](file:///e:/cencus-management-system/start.bat) in the project root:
+- **Zero Server Setup**: Automatically creates and uses the embedded **SQLite** single-file database (`census.db`). No MySQL server, no usernames, no passwords needed!
+- **Auto-Detects Java**: Automatically discovers JDK 17+ on your machine.
 - **Instant Launch**: Starts the pre-packaged executable JAR in ~3 seconds.
-- **Auto-Browser Launch**: Automatically opens your default web browser to **`http://localhost:8080/`**.
-- **Interactive Menu**: Choose between In-Memory Zero-Config (Default), MySQL, Rebuild, or Run Tests.
+- **Auto-Browser Launch**: Automatically opens your default web browser to **`http://localhost:8080/login`**.
+- **Auto-Seeded Data**: Pre-seeds 4 regions, users, 5 households, and 15 citizens on first boot.
 
-### Option B: Linux / macOS / Git Bash
+### Linux / macOS / Git Bash
 ```bash
 ./run.sh
 ```
@@ -45,7 +43,7 @@ run.bat
 | **Security** | Spring Security 6 with BCrypt password hashing, Session management, and JWT token authentication |
 | **Persistence** | Spring Data JPA (Hibernate 6) |
 | **Validation** | Jakarta Bean Validation (`@NotNull`, `@NotBlank`, `@Past`, `@Size`, etc.) |
-| **Databases** | **MySQL 8.0+** (Production/Demo) & **H2 Database** (Zero-configuration dev/test) |
+| **Databases** | **SQLite** (Default zero-config persistent file `census.db`) & **MySQL 8.0+** (Optional profile: `--mysql`) |
 | **Build Tool** | Apache Maven (Maven wrapper `mvnw` & `mvnw.cmd` included) |
 
 ---
