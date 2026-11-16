@@ -57,8 +57,8 @@ public class SecurityConfig {
             .authorizeHttpRequests(auth -> auth
                 // Static resources
                 .requestMatchers("/css/**", "/js/**", "/images/**", "/webjars/**", "/favicon.ico").permitAll()
-                // Public auth endpoints
-                .requestMatchers("/login", "/api/auth/**").permitAll()
+                // Public auth endpoints & health ping
+                .requestMatchers("/login", "/api/auth/**", "/api/ping").permitAll()
                 // H2 console
                 .requestMatchers("/h2-console/**").permitAll()
                 // Admin only endpoints
