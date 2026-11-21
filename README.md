@@ -1,6 +1,6 @@
 # Census Management System (Java Spring Boot + Thymeleaf + SQLite / MySQL)
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-green?style=for-the-badge&logo=render)](https://census-management-system-5lpf.onrender.com)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-AWS%20EC2-orange?style=for-the-badge&logo=amazonec2)](http://13.54.219.4)
 [![Java](https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge&logo=openjdk)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.4-brightgreen?style=for-the-badge&logo=springboot)](https://spring.io/projects/spring-boot)
 [![SQLite](https://img.shields.io/badge/Database-SQLite%20%7C%20MySQL-blue?style=for-the-badge&logo=sqlite)](https://www.sqlite.org/)
@@ -8,8 +8,8 @@
 ---
 
 ### 🌐 Live Cloud Deployment
-The project is hosted and running live on Render:
-👉 **[https://census-management-system-5lpf.onrender.com](https://census-management-system-5lpf.onrender.com)**
+The project is hosted and running live on AWS EC2 (Free Tier):
+👉 **[http://13.54.219.4](http://13.54.219.4)**
 
 #### Quick Demo Login Credentials:
 | Portal | Username | Password | Access Scope |
